@@ -17,8 +17,8 @@ export default function Project() {
       <div className='project-container'>
         <div className='project-image'>
         <a href='https://yikping.github.io/yikping/' target="_blank" rel="noreferrer" >
-            <img src={frontpage} alt='front-page'/>  
             <img src={footer} alt='footer'/>  
+            <img src={frontpage} alt='front-page'/>  
           </a>
         </div>
         <div className='project-detail'>
