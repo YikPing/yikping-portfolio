@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yikping/static/css/main.569826f9.css",
+    "main.js": "/yikping/static/js/main.f366d62b.js",
+    "static/media/Front-page.svg": "/yikping/static/media/Front-page.5a52fd43f3a7b8329a2b67f1572ecad0.svg",
+    "static/media/footer.svg": "/yikping/static/media/footer.376a681b15a44c8a65c0f2f650c211cf.svg",
+    "index.html": "/yikping/index.html",
+    "main.569826f9.css.map": "/yikping/static/css/main.569826f9.css.map",
+    "main.f366d62b.js.map": "/yikping/static/js/main.f366d62b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.569826f9.css",
+    "static/js/main.f366d62b.js"
+  ]
+}
