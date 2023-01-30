@@ -9,6 +9,7 @@ import ContactFooter from "./ContactFooter";
 import Project from "./Project";
 import "./styles/main.css"
 import Particlesbackground from './components/particlesbackground'
+import {Helmet} from "react-helmet";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,11 @@ function App() {
 
   return (
     <>
+      <Helmet>
+          <meta charSet="utf-8" />
+          <title>Yik Ping</title>
+          <link rel="canonical" href="https://yikping.github.io/yikping/" />
+      </Helmet>
       <section id={'mainpage'}>
       <React.Fragment>
               <Navbar/>

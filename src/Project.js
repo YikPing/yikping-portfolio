@@ -7,14 +7,16 @@ import { faReact } from '@fortawesome/free-brands-svg-icons'
 import frontpage from './asset/Front-page.svg'
 import footer from './asset/footer.svg'
 
+
 export default function Project() {
   const float = useFloatIn("float-in");
   return (
     <div ref={float}>
+      
       <h className='project'>Projects</h>
       <div className='project-container'>
         <div className='project-image'>
-        <a href='https://www.example.com' target="_blank" rel="noreferrer" >
+        <a href='https://yikping.github.io/yikping/' target="_blank" rel="noreferrer" >
             <img src={frontpage} alt='front-page'/>  
             <img src={footer} alt='footer'/>  
           </a>
@@ -24,7 +26,7 @@ export default function Project() {
             <p className=''>{'My personal portfolio webpage cutsom built with React, responsive and serves as a comprehensive introduction to my work and capabilities.'}</p>
             {'Technologies used:'}
             <div className='tech-used'><FontAwesomeIcon icon={faReact} />  {'React'}</div>
-            <a href="https://www.youtube.com" target="_blank" rel="noreferrer" >
+            <a href="https://yikping.github.io/yikping/" target="_blank" rel="noreferrer" >
                 <button className='live-demo-button'>Live Demo</button>
             </a>
 
