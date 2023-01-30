@@ -1,0 +1,87 @@
+.project{
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 3rem;
+}
+
+.project-container{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: auto;
+    height: 20rem;
+}
+
+.project-image{
+   background-color: gainsboro;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   position: relative;
+}
+
+.project-image img {
+    position: absolute;
+  width: 80%;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-image img:hover {
+    transform: scale(1.1);
+  }
+
+.project-image img:first-child {
+    z-index: 1;
+    top: 20px;
+    left: 70px
+  }
+
+  .project-image img:last-child {
+    top: 90px;
+    left: 40px;
+  }
+
+.project-detail{
+    padding: 40px;
+    padding-left: 50px;
+    display: grid;
+    background-color: #116f9e;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.project-title{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.tech-used{
+    display: flex;
+}
+
+.live-demo-button{
+    width: 6rem;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #0d4a68;
+    border-color: white;
+    color: white;
+}
+
+.live-demo-button:hover{
+    background-color: transparent;
+}
+
+@media (max-width: 600px){
+    .project-container{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .project-detail{
+        padding: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+    }
+}

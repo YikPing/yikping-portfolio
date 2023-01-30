@@ -1,0 +1,19 @@
+.background-container{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    padding-top: 100px;
+    width: 70%;
+    color: black;
+    text-align: justify;
+    border-radius: 2rem;
+}
+
+@media (max-width: 600px){
+    .background-container{
+        width: 90%;
+        padding-top: 60px;
+    }
+}
