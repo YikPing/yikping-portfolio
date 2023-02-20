@@ -37,6 +37,7 @@ function Navbar() {
     const routeChange = () =>{ 
         let path = `/project_page`; 
         navigate(path);
+        showNavbar();
     }
 
     return (

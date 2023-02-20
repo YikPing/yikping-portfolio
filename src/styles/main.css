@@ -93,6 +93,9 @@ nav {
     nav a {
         font-size: 1.5rem;
     }
+    .project-button{
+      font-size: 1.5rem;
+    }
 }
 
 .responsive-large-text {
@@ -291,6 +294,6 @@ nav {
 
 .project-button{
   background: transparent;
-  color: white;
+  color: var(--textColor);
   border: 0;
 }
