@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/yikping/static/css/main.7a5faad6.css",
-    "main.js": "/yikping/static/js/main.a3941548.js",
+    "main.css": "/yikping/static/css/main.d6eea7bf.css",
+    "main.js": "/yikping/static/js/main.d64cf473.js",
     "static/media/Front-page.svg": "/yikping/static/media/Front-page.5a52fd43f3a7b8329a2b67f1572ecad0.svg",
     "static/media/footer.svg": "/yikping/static/media/footer.376a681b15a44c8a65c0f2f650c211cf.svg",
     "index.html": "/yikping/index.html",
-    "main.7a5faad6.css.map": "/yikping/static/css/main.7a5faad6.css.map",
-    "main.a3941548.js.map": "/yikping/static/js/main.a3941548.js.map"
+    "main.d6eea7bf.css.map": "/yikping/static/css/main.d6eea7bf.css.map",
+    "main.d64cf473.js.map": "/yikping/static/js/main.d64cf473.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a5faad6.css",
-    "static/js/main.a3941548.js"
+    "static/css/main.d6eea7bf.css",
+    "static/js/main.d64cf473.js"
   ]
 }
