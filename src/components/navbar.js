@@ -46,7 +46,7 @@ function Navbar() {
             <nav ref={navRef}>
                 <a href="/yikping"  onClick={showNavbar}>Home</a>
                 <a href="/yikping#aboutme" onClick={showNavbar}>About Me</a>
-                <a href="" onClick={routeChange} >Projects</a>
+                <button className="project-button" onClick={routeChange} >Projects</button>
                 <a href="#contact" onClick={showNavbar}>Contact</a>
                 <a href="https://docs.google.com/document/d/10vh3ObKehpF2hn8bYOfPAGro69CgWbWPmkkoxgMFN8s/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                 <button

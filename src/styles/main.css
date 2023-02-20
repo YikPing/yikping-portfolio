@@ -288,3 +288,9 @@ nav {
     width: 70%;
   }
 }
+
+.project-button{
+  background: transparent;
+  color: white;
+  border: 0;
+}
