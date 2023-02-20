@@ -31,7 +31,10 @@ export default function Project() {
             </a>
 
         </div>
+      
       </div>
+      
     </div>
+    
   )
 }

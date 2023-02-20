@@ -1,8 +1,11 @@
 import { useRef, useEffect,useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../styles/main.css";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+    const navigate = useNavigate(); 
+
     const navRef = useRef(null);
 
     const [isSticky, setSticky] = useState(true);
@@ -31,14 +34,18 @@ function Navbar() {
         };
     }, []);
 
+    const project_nav = ()  => {
+        navigate("/project_page");
+    }
+
     return (
         <header className={`${isSticky ? "sticky" : ""}`} style={{ backgroundColor: navBackground }}>
             <a style={{ textDecoration: 'none',
-                        color: 'white'}} href="#mainpage">YIK PING</a>
+                        color: 'white'}} href="/yikping">YIK PING</a>
             <nav ref={navRef}>
-                <a href="#mainpage"  onClick={showNavbar}>Home</a>
-                <a href="#aboutme" onClick={showNavbar}>About Me</a>
-                <a href="#project" onClick={showNavbar}>Projects</a>
+                <a href="/yikping"  onClick={showNavbar}>Home</a>
+                <a href="/yikping#aboutme" onClick={showNavbar}>About Me</a>
+                <a href="" onClick={project_nav} >Projects</a>
                 <a href="#contact" onClick={showNavbar}>Contact</a>
                 <a href="https://docs.google.com/document/d/10vh3ObKehpF2hn8bYOfPAGro69CgWbWPmkkoxgMFN8s/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                 <button

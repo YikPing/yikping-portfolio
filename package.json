@@ -20,6 +20,7 @@
     "react-native": "^0.71.0",
     "react-native-auto-size-text": "^1.1.1",
     "react-native-responsive-fontsize": "^0.5.1",
+    "react-router-dom": "^6.8.1",
     "react-scripts": "^5.0.1",
     "react-tsparticles": "^2.7.1",
     "tsparticles": "^2.7.1",
