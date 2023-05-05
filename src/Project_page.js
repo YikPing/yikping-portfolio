@@ -55,6 +55,17 @@ export default function Project_page() {
     });
   }
 
+  var right=document.getElementById('rightdiv').style.height;
+  var left=document.getElementById('leftdiv').style.height;
+  if(left>right)
+  {
+      document.getElementById('rightdiv').style.height=left;
+  }
+  else
+  {
+      document.getElementById('leftdiv').style.height=right;
+  }
+
   return (
     <div>
       <h className='project-page-main-title'>Projects</h>
@@ -62,14 +73,14 @@ export default function Project_page() {
         
         <div className='project-page-container'>
           <div className='each-project' data-index='0' data-status='active'>
-            <div className='project-each-container'>
+            <div className='project-each-container' id='leftdiv'>
               <h className='project-page-title'>Personal Portfolio Website (Front-End)</h>
               <a href='https://yikping.github.io/yikping/' target="_blank" rel="noreferrer" >
                   <img className='project-page-image' src={frontpage} alt='front-page'/>  
               </a>
               
             </div>
-            <div className='project-page-detail'>
+            <div className='project-page-detail' id='rightdiv'>
               <h className='project-detail-title'>Personal Portfolio Website (Front-End)</h>
               <p className=''>{'My personal portfolio webpage cutsom built with React, responsive and serves as a comprehensive introduction to my work and capabilities.'}</p>
               {'Technologies used:'}
