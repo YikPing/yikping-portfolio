@@ -71,7 +71,7 @@ export default function Project_page() {
             </div>
             <div className='project-page-detail'>
               <h className='project-detail-title'>Personal Portfolio Website (Front-End)</h>
-              <p className=''>{'My personal portfolio webpage cutsom built with React, responsive and serves as a comprehensive introduction to my work and capabilities.'}</p>
+              <p className=''>{'My personal portfolio webpage custom built with React, responsive and serves as a comprehensive introduction to my work and capabilities.'}</p>
               {'Technologies used:'}
               <div className='tech-used'><FontAwesomeIcon icon={faReact} />  {'React'}</div>
               <a href="https://yikping.github.io/yikping/" target="_blank" rel="noreferrer" >
