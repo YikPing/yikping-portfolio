@@ -43,10 +43,10 @@ function Navbar() {
     return (
         <header className={`${isSticky ? "sticky" : ""}`} style={{ backgroundColor: navBackground }}>
             <a style={{ textDecoration: 'none',
-                        color: 'white'}} href="/yikping">YIK PING</a>
+                        color: 'white'}} href="/yikping-portfolio">YIK PING</a>
             <nav ref={navRef}>
-                <a href="/yikping"  onClick={showNavbar}>Home</a>
-                <a href="/yikping#aboutme" onClick={showNavbar}>About Me</a>
+                <a href="/yikping-portfolio"  onClick={showNavbar}>Home</a>
+                <a href="/yikping-portfolio#aboutme" onClick={showNavbar}>About Me</a>
                 <button className="project-button" onClick={routeChange} >Projects</button>
                 <a href="#contact" onClick={showNavbar}>Contact</a>
                 <a href="https://docs.google.com/document/d/10vh3ObKehpF2hn8bYOfPAGro69CgWbWPmkkoxgMFN8s/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a>

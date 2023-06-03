@@ -34,7 +34,7 @@ function App() {
         <ScrollToTop/>
         <Routes>
           
-          <Route exact path="/yikping" element={<MainPage />} />
+          <Route exact path="/yikping-portfolio" element={<MainPage />} />
           <Route path="/project_page" element={<Project_page />} />
         </Routes>
         </div>
