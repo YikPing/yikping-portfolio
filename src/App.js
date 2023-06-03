@@ -23,7 +23,7 @@ function App() {
       <Helmet>
           <meta charSet="utf-8" />
           <title>Yik Ping</title>
-          <link rel="canonical" href="https://yikping.github.io/yikping/" />
+          <link rel="canonical" href="https://yikping.github.io/yikping-portfolio/" />
         </Helmet>
         <Particlesbackground/>
       <Router>

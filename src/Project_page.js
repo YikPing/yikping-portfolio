@@ -64,7 +64,7 @@ export default function Project_page() {
           <div className='each-project' data-index='0' data-status='active'>
             <div className='project-each-container'>
               <h className='project-page-title'>Personal Portfolio Website (Front-End)</h>
-              <a href='https://yikping.github.io/yikping/' target="_blank" rel="noreferrer" >
+              <a href='https://yikping.github.io/yikping-portfolio/' target="_blank" rel="noreferrer" >
                   <img className='project-page-image' src={frontpage} alt='front-page'/>  
               </a>
               
@@ -74,7 +74,7 @@ export default function Project_page() {
               <p className=''>{'My personal portfolio webpage custom built with React, responsive and serves as a comprehensive introduction to my work and capabilities.'}</p>
               {'Technologies used:'}
               <div className='tech-used'><FontAwesomeIcon icon={faReact} />  {'React'}</div>
-              <a href="https://yikping.github.io/yikping/" target="_blank" rel="noreferrer" >
+              <a href="https://yikping.github.io/yikping-portfolio/" target="_blank" rel="noreferrer" >
                   <button className='live-demo-button'>Live Demo</button>
               </a>
             </div>
