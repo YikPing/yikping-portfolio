@@ -62,7 +62,7 @@ export default function MainPage() {
           <div className='responsive-progress-bar-size' >
             <ProgressBar>
               <ProgressBar max={100} now={progress_percentage} animated striped variant="info" label={`1st year completed`} key={1} />
-              <ProgressBar max={100} now={15} animated striped variant="success" label={`1.5 year completed`} key={2} />  
+              <ProgressBar max={100} now={progress_percentage} animated striped variant="success" label={`2nd year completed`} key={2} />  
             </ProgressBar>
           </div>
 
