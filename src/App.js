@@ -23,7 +23,7 @@ function App() {
       <Helmet>
           <meta charSet="utf-8" />
           <title>Yik Ping</title>
-          <link rel="canonical" href="https://yikping.com/" />
+          <link rel="canonical" href="https://yikping.github.io/yikping-portfolio" />
         </Helmet>
         <Particlesbackground/>
       <Router>
@@ -34,7 +34,7 @@ function App() {
         <ScrollToTop/>
         <Routes>
           
-          <Route exact path="/" element={<MainPage />} />
+          <Route exact path="/yikping-portfolio" element={<MainPage />} />
           <Route path="/project_page" element={<Project_page />} />
         </Routes>
         </div>
