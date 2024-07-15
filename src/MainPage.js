@@ -13,7 +13,7 @@ import "./styles/main.css"
 import { useNavigate } from "react-router-dom";
 
 const fontstyle = 'Sofia Sans'
-const progress_percentage = 35
+const progress_percentage = 33.33
 
 export default function MainPage() {
   const navigate = useNavigate(); 
@@ -63,6 +63,7 @@ export default function MainPage() {
             <ProgressBar>
               <ProgressBar max={100} now={progress_percentage} animated striped variant="info" label={`1st year completed`} key={1} />
               <ProgressBar max={100} now={progress_percentage} animated striped variant="success" label={`2nd year completed`} key={2} />  
+              <ProgressBar max={100} now={progress_percentage/2} animated striped variant="danger" label={`3rd year completed`} key={2} />  
             </ProgressBar>
           </div>
 
