@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b11a8f6.css",
-    "main.js": "/static/js/main.7f568f20.js",
-    "static/media/Front-page.svg": "/static/media/Front-page.505f8f39282a56cd26b90caffca4c8cb.svg",
-    "static/media/footer.svg": "/static/media/footer.8a955f1a3255469d07aee1da58203cb7.svg",
-    "index.html": "/index.html",
-    "main.8b11a8f6.css.map": "/static/css/main.8b11a8f6.css.map",
-    "main.7f568f20.js.map": "/static/js/main.7f568f20.js.map"
+    "main.css": "/yikping-portfolio/static/css/main.8b11a8f6.css",
+    "main.js": "/yikping-portfolio/static/js/main.b0cf023a.js",
+    "static/media/Front-page.svg": "/yikping-portfolio/static/media/Front-page.505f8f39282a56cd26b90caffca4c8cb.svg",
+    "static/media/footer.svg": "/yikping-portfolio/static/media/footer.8a955f1a3255469d07aee1da58203cb7.svg",
+    "index.html": "/yikping-portfolio/index.html",
+    "main.8b11a8f6.css.map": "/yikping-portfolio/static/css/main.8b11a8f6.css.map",
+    "main.b0cf023a.js.map": "/yikping-portfolio/static/js/main.b0cf023a.js.map"
   },
   "entrypoints": [
     "static/css/main.8b11a8f6.css",
-    "static/js/main.7f568f20.js"
+    "static/js/main.b0cf023a.js"
   ]
 }
